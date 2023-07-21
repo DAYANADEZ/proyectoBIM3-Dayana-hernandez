@@ -2,11 +2,11 @@ package agendatelefonica;
 
 public class contacto {
 
-    private String nombre, telefono, domicilio;
+    private String telefono, nombre, domicilio;
 
-    public contacto(String nombre, String telefono, String domicilio) {
-        this.nombre = nombre;
-        this.telefono = telefono;
+    public contacto(String telefono, String nombre, String domicilio) {
+        this.nombre = telefono;
+        this.telefono = nombre;
         this.domicilio = domicilio;
         
     }public String verNombre() {

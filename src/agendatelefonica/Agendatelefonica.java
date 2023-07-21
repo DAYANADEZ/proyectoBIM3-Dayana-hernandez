@@ -14,7 +14,7 @@ public class Agendatelefonica {
         Scanner entrada = new Scanner(System.in);
         while (op != 5) {
             System.out.println("--------------------------------------------");
-            System.out.println("**************AGENDA TELEFONO**************");
+            System.out.println("**************AGENDA TELEFONICA**************");
             System.out.println("--------------------MENU--------------------");
             System.out.println("1. Guardar contacto");
             System.out.println("2. Ver contactos");
@@ -72,7 +72,7 @@ public class Agendatelefonica {
             String telefono = teclado.nextLine();
             System.out.println("Ingrese el domicilio de tu contacto");
             String domicilio = teclado.nextLine();
-            misContactos[contador] = new contacto(telefono, nombre, domicilio);
+            misContactos[contador] = new contacto(nombre, telefono, domicilio);
             System.out.println("DATO ALMACENADO");
             contador++;
         }
